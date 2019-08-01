@@ -1,0 +1,23 @@
+{
+  "name": "global-temp-chart",
+  "version": "1.0.0",
+  "description": "My project for the Visualize Data with a Heat Map challenge as part of the curriculum for the Data Visualization Certification on Free Code Camp.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -b gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishafrenkel/Global-Temps-Visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishafrenkel/Global-Temps-Visualizer/issues"
+  },
+  "homepage": "https://github.com/mishafrenkel/Global-Temps-Visualizer#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.0"
+  }
+}
