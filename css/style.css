@@ -1,0 +1,89 @@
+html {
+  background: #333;
+}
+
+h1 {
+  font-size: 1.3rem;
+  line-height: 24px;
+  padding: 30px 0 10px;
+}
+
+h2 {
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+main {
+  padding: 25px 0 70px;
+}
+
+svg {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.tooltip {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 13px 0px #828282;
+  color: #333;
+  font-size: 0.8rem;
+  line-height: 20px;
+  padding: 8px;
+  pointer-events: none;
+  position: absolute;
+  text-align: left;
+  z-index: 1;
+}
+
+.error-message {
+  background: hsl(349, 96%, 95%);
+  border: 1px solid hsl(349, 96%, 90%);
+  border-radius: 5px;
+  color: hsl(349, 96%, 26%);
+  display: none;
+  line-height: 20px;
+  margin: 12px auto;
+  max-width: 700px;
+  padding: 15px 10px;
+  width: 100%;
+}
+
+footer {
+  bottom: 0;
+  font-size: 0.8rem;
+  left: 0;
+  letter-spacing: 2px;
+  padding: 14px 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+footer a,
+footer a:visited,
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: #36e2d4;
+}
+
+@media only screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+
+  .tooltip {
+    font-size: 1.1rem;
+    line-height: 24px;
+  }
+}
