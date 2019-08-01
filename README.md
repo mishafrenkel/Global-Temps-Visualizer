@@ -7,4 +7,4 @@ My project for the Visualize Data with a Heat Map challenge as part of the curri
 - CSS3
 - Font Awesome
 - Demo
-- View project demo at https://
+- View project demo at https:// https://mishafrenkel.github.io/Global-Temps-Visualizer/

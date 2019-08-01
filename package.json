@@ -2,9 +2,9 @@
   "name": "global-temp-chart",
   "version": "1.0.0",
   "description": "My project for the Visualize Data with a Heat Map challenge as part of the curriculum for the Data Visualization Certification on Free Code Camp.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages -b gh-pages -d ."
+    "deploy": "gh-pages -b gh-pages"
   },
   "repository": {
     "type": "git",
